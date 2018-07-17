@@ -1,3 +1,5 @@
+This is merely a copy of [Hackzzila's original repo](https://github.com/Hackzzila/node-ffmpeg-binaries) for general usage purposes.
+
 # ffmpeg-binaries
 A simple way to install FFMPEG globally or for an individual project.  
 Supports Windows, Linux and macOS
