@@ -12,11 +12,11 @@ function callback(res) {
 }
 
 if (process.platform === 'win32') {
-  http.get('https://raw.githubusercontent.com/boulosda/node-ffmpeg-binaries/master/windows.tar.gz', callback);
+  http.get('https://raw.githubusercontent.com/boulosda/ffmpeg-binaries/master/windows.tar.gz', callback);
 } else if (process.platform === 'linux') {
-  http.get('https://raw.githubusercontent.com/boulosda/node-ffmpeg-binaries/master/linux.tar.gz', callback);
+  http.get('https://raw.githubusercontent.com/boulosda/ffmpeg-binaries/master/linux.tar.gz', callback);
 } else if (process.platform === 'darwin') {
-  http.get('https://raw.githubusercontent.com/boulosda/node-ffmpeg-binaries/master/darwin.tar.gz', callback);
+  http.get('https://raw.githubusercontent.com/boulosda/ffmpeg-binaries/master/darwin.tar.gz', callback);
 } else {
   throw new Error('unsupported platform');
 }
